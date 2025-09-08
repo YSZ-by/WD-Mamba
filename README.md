@@ -2,25 +2,32 @@
 
 ## WD-Mamba Model Architecture
 
-- We develop the WD-Mamba modedl for synthesis of high resolution images. 
+- We develop the WD-Mamba model for the synthesis of high-resolution images. 
 
 <div align="center">
     <img src="WD-Mamba.png" alt="Image Generation with WD-Mamba ">
-    <p>The left section of the above figure illustrates overall generative process. The middle section shows the WD-Mamba encoder-decoder architecture. The bottom left highlights the spiral scan patterns, while the bottom right details the core Mamba block.</p>
+    <p>The left section of the above figure illustrates the overall generative process. The middle section shows the WD-Mamba encoder-decoder architecture. The bottom left highlights the spiral scan patterns, while the bottom right details the core Mamba block.</p>
+</div>
+
+## Qualitative results of WD-Mamba
+
+<div align="center">
+    <img src="algo.png" alt=algo">
+    <p>The Training Algorithm.</p>
 </div>
 
 ## Qualitative results of WD-Mamba
 
 <div align="center">
     <img src="celeba_comparison.png" alt="Generated samples on CelebAHQ daatset">
-    <p>The figure above shows the comparison of generated images on CelebAHQ dataset with dfferent state-of-the-art models.</p>
+    <p>The figure above shows the comparison of generated images on the CelebAHQ dataset with different state-of-the-art models.</p>
 </div>
 
 ## Quantitative results of WD-Mamba
 
 <div align="center">
-    <img src="fid_metric.png" alt="FID metric of several models">
-    <p>The figure above shows the comparison of FID values of generated images on several datasets with dfferent state-of-the-art models.</p>
+    <img src="re.png" alt="FID metric of several models">
+    <p>The figure above shows the comparison of FID values of generated images on several datasets with different state-of-the-art models.</p>
 </div>
 
 ## More Generated Images by WD-Mamba
